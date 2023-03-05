@@ -32,6 +32,10 @@ hr {
     width: 70%;
 }
 
+#main-row {
+    padding: 0px 100px;
+}
+
 #brand {
     background-color: #D61C4E;    
     text-align: center;
@@ -39,11 +43,6 @@ hr {
 
 .brand-name {
     font-size: 4.5rem;
-
-}
-
-#main-row {
-    padding: 0 15% 
 }
 
 #logo-column {
@@ -59,7 +58,9 @@ hr {
 }
 
 .brand-logo {
-    margin: 0px auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
     width: 300px;
 }
 
