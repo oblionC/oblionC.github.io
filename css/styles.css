@@ -33,6 +33,7 @@ hr {
 }
 
 #brand {
+    background-color: #D61C4E;    
     text-align: center;
 }
 
@@ -50,11 +51,11 @@ hr {
 }
 
 #form-column {
-    padding: 150px 30px;
+    padding: 120px 30px;
 }
 
 .tagline {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .brand-logo {
@@ -89,6 +90,6 @@ hr {
     }
 
     #form-column {
-        padding: 50px 30px;
+        padding: 50px 30px 200px;
     }
 }
