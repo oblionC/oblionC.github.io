@@ -3,8 +3,14 @@ body {
     text-align: center;
 }
 
+input, button {
+    display: inline-block;
+    margin: 0px;
+}
+
 form {
     text-align: center;
+    margin: 0px auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,6 +33,7 @@ hr {
 }
 
 #brand {
+    background-color: #D61C4E;    
     text-align: center;
 }
 
@@ -36,19 +43,19 @@ hr {
 }
 
 #main-row {
-    padding: 6.67% 15%
+    padding: 0 15% 
 }
 
 #logo-column {
-    padding-right: 30px;
+    padding: 50px 30px;
 }
 
 #form-column {
-    padding: 10% 30px 10% 30px;
+    padding: 120px 30px;
 }
 
 .tagline {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .brand-logo {
@@ -63,6 +70,7 @@ hr {
     top: 40%;
     border-style: none dashed none none;
     border-color: #FAC213;
+    margin: 0;
     height: 20%;
     width: 0px;
 }
@@ -74,4 +82,14 @@ hr {
 
 .form-elements {
     display: inline;
+}
+
+@media (max-width: 992px) {
+    .vl {
+        visibility: hidden;
+    }
+
+    #form-column {
+        padding: 50px 30px 200px;
+    }
 }
