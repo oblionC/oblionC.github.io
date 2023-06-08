@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: var(--secondary);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-brand {
+    font-size: 2rem;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+}
