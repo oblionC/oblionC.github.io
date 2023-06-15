@@ -4,10 +4,16 @@
 }
 
 :root {
-    --secondary: #FFD966;
+    --primary: #F4EEFF;
+    --secondary: #DCD6F7;
+    --tertiary: #A6B1E1;
+    --cta: #424874;
     font-size: 16px;
 }
 
+body {
+    background-color: var(--primary);
+}
 .container {
     width: 90%;
     margin-left: auto;
