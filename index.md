@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    </head>
-    <body>
-        hello world
-    </body>
-</html>
+---
+title: "Welcome to my blog"
+---
+hello
