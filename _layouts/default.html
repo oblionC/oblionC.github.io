@@ -46,7 +46,13 @@
 
       </section>
 
-      Hello testing testing
+      {% for post in site.posts %}
+      <div id="post">
+        {% post.title %}
+        {% post.excerpt %}
+      </div>
+      {% endfor %}
+
     </div>
   </body>
 </html>
