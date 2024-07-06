@@ -46,12 +46,12 @@
 
       </section>
 
-      {% for post in site.posts %}
+      {%- for post in site.posts -%}
       <div id="post">
         {% post.title %}
         {% post.excerpt %}
       </div>
-      {% endfor %}
+      {%- endfor -%}
 
     </div>
   </body>
