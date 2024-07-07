@@ -48,8 +48,10 @@
 
       {%- for post in site.posts -%}
       <div id="post">
-        {{ post.title }}
-        {{ post.excerpt }}
+        <a href={{ post.url }}>
+          {{ post.title }}
+        </a>
+        {{ post.excerpt cc}}
       </div>
       {%- endfor -%}
 
