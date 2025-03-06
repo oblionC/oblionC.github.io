@@ -4,7 +4,7 @@ layout: base
 <div class="md:text-[36px] text-[22px] md:leading-10 leading-5 font-[Instrument_Serif] lg:mx-20 mx-5 mb-30 mt-20 lg:w-3/5 w-full">
     You scrolled, you clicked, and now you’re here. Coincidence? I think not. Let’s make something happen, one email or call won’t hurt!
 </div>
-<div class="w-full xl:h-[650px] h-[500px] relative">
+<div class="w-full xl:h-[650px] h-[500px] relative fade-up">
     <div class="bg-white border-solid border-3 border-black absolute xl:w-[1200px] w-[900px] left-0 right-0 mx-auto rotating-card">
         <img class="w-full" src="{{site.baseurl}}assets/images/contacts-border.png">
         <div class="absolute text-black xl:text-[150px] text-[90px] left-[50px] bottom-[50px] leading-30">
