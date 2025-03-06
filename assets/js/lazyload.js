@@ -31,6 +31,9 @@ async function waitForFadeInLeft() {
 async function lazyload() {
     const imagesParentDiv = document.getElementsByClassName("lazyload")[0]
     const images = [...imagesParentDiv.children]
+    for(var image of images) {
+        image.classList.add("opacity-0")
+    }
     const options = {
         root: null, 
         rootMargin: "0px",
@@ -46,7 +49,6 @@ async function lazyload() {
                 }
                 else {
                     img.onload = () => {
-                        console.log("xd")
                         imgDiv.classList.add("fade-up")
                     }
                 }
