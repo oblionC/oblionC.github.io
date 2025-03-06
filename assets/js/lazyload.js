@@ -31,11 +31,6 @@ async function waitForFadeInLeft() {
 async function lazyload() {
     const imagesParentDiv = document.getElementsByClassName("lazyload")[0]
     const images = [...imagesParentDiv.children]
-    images.forEach(image => {
-        const img = image.getElementsByTagName("img")[0]
-        img.classList.add("opacity-0")
-        img.classList.add("h-[500px]")
-    })
     const options = {
         root: null, 
         rootMargin: "0px",
@@ -48,14 +43,11 @@ async function lazyload() {
                 const img = imgDiv.getElementsByTagName("img")[0]
                 if(img.complete) {
                     imgDiv.classList.add("fade-up")
-                    img.classList.remove("opacity-0")
-                    img.classList.remove("h-[500px]")
                 }
                 else {
                     img.onload = () => {
+                        console.log("xd")
                         imgDiv.classList.add("fade-up")
-                        img.classList.remove("opacity-0")
-                        img.classList.remove("h-[500px]")
                     }
                 }
                 observer.unobserve(img);
