@@ -82,10 +82,10 @@ layout: base
         type in use
     </div>
     <div class="grid grid-cols-2 md:grid-rows-1 grid-rows-2 gap-5">
-        <div class="md:col-span-1 col-span-2 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
+        <div class="md:col-span-1 col-span-2 rounded-3xl overflow-hidden relative">
             <img src="{{site.baseurl}}/assets/images/typography/kannada-wall1.png">
         </div>
-        <div class="md:col-span-1 col-span-2 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
+        <div class="md:col-span-1 col-span-2 rounded-3xl overflow-hidden relative">
             <img src="{{site.baseurl}}/assets/images/typography/kannada-wall2.png">
         </div>
     </div>

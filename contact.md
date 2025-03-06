@@ -10,9 +10,11 @@ layout: base
         <div class="absolute text-black xl:text-[150px] text-[90px] left-[50px] bottom-[50px] leading-30">
             Saniya<br>Murdeshwar
         </div>
-        <a href="{{site.baseurl}}assets/Resume_Saniya Murdeshwar.pdf" download>
-            <div class="absolute text-black text-[36px] left-[60px] top-[80px]">
+        <a href="{{site.baseurl}}assets/resume_saniya murdeshwar.pdf" download>
+            <div class="group absolute text-black text-[36px] left-[60px] top-[80px]">
                 resume
+                <div class="h-0 group-hover:w-full w-0 transition-all border-b-1 border-solid border-black">
+                </div>
             </div>
         </a>
         <div class="absolute text-black text-[36px] right-[60px] top-[80px]">
@@ -44,15 +46,21 @@ layout: base
             Saniya<br>Murdeshwar
         </div>
         <a href="{{site.baseurl}}assets/Resume_Saniya Murdeshwar.pdf" download>
-            <div class="absolute text-black text-[36px] left-[60px] top-[80px] flex flex-row">
-                <img class="w-[30px] object-scale-down" src="{{site.baseurl}}assets/images/hyperlink_icon.png">
-                resume
+            <div class="group absolute text-black text-[36px] left-[60px] top-[80px]">
+                <div class="flex flex-row">
+                    <img class="w-[30px] object-scale-down" src="{{site.baseurl}}assets/images/hyperlink_icon.png">
+                    resume
+                </div>
+                <div class="h-0 group-hover:w-full w-0 transition-all border-b-1 border-solid border-black">
+                </div>
             </div>
         </a>
         <div class="absolute text-black xl:text-[36px] text-[28px] right-[60px] xl:top-[80px] top-[50px]">
-            <a class="animate-bounce" href="mailto:saniyamurdeshwar@gmail.com">
+            <a class="group" href="mailto:saniyamurdeshwar@gmail.com">
                 <div>
                     saniyamurdeshwar@gmail.com
+                </div>
+                <div class="h-0 group-hover:w-full w-0 transition-all border-b-1 border-solid border-black">
                 </div>
             </a>
             <div class="text-right">
@@ -60,16 +68,20 @@ layout: base
             </div>
         </div>
         <div class="absolute text-black xl:text-[36px] text-[28px] right-[60px] xl:bottom-[50px] bottom-[40px]">
-            <a href="https://www.instagram.com/saniyaa_murdeshwar/">
+            <a class="group" href="https://www.instagram.com/saniyaa_murdeshwar/">
                 <div class="flex flex-row">
                     <img class="w-[30px] object-scale-down" src="{{site.baseurl}}assets/images/hyperlink_icon.png">
                     instagram
                 </div>
+                <div class="h-0 group-hover:w-full w-0 transition-all border-b-1 border-solid border-black">
+                </div>
             </a>
-            <a href="https://www.linkedin.com/in/saniya-murdeshwar-436b78271/">
+            <a class="group" href="https://www.linkedin.com/in/saniya-murdeshwar-436b78271/">
                 <div class="flex flex-row-reverse text-right">
                     linkedin
                     <img class="w-[30px] object-scale-down" src="{{site.baseurl}}assets/images/hyperlink_icon.png">
+                </div>
+                <div class="h-0 group-hover:w-full w-0 transition-all border-b-1 border-solid border-black">
                 </div>
             </a>
         </div>
