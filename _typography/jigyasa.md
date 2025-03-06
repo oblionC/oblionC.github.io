@@ -7,27 +7,27 @@ year: 2023
 ---
 <div class="grid grid-cols-2 gap-5">
     <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
-        <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 1.jpg" />
+        <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/typography/Artboard 1.jpg" />
     </div>
     <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
-        <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 8.jpg" />
+        <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/typography/Artboard 8.jpg" />
     </div>
     <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
-        <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 2.jpg" />
+        <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/typography/Artboard 2.jpg" />
     </div>
     <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
-        <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 3.jpg" />
+        <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/typography/Artboard 3.jpg" />
     </div>
     <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
-        <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 4.jpg" />
+        <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/typography/Artboard 4.jpg" />
     </div>
     <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
-        <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 5.jpg" />
+        <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/typography/Artboard 5.jpg" />
     </div>
     <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
-        <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 6.jpg" />
+        <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/typography/Artboard 6.jpg" />
     </div>
     <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative">
-        <img class="w-full h-full object-cover" src="{{site.baseurl}}assets/images/typography/Artboard 7.jpg" />
+        <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/typography/Artboard 7.jpg" />
     </div>
 </div>

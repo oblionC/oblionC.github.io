@@ -19,7 +19,7 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
-                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
+                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
             <!-- </a> -->
         </div>
         {% assign item = site[page.category] | where: "name", "illustration 2" | first %}
@@ -30,7 +30,7 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
-                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
+                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
             <!-- </a> -->
         </div>
         {% assign item = site[page.category] | where: "name", "illustration 3" | first %}
@@ -41,7 +41,7 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
-                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
+                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
             <!-- </a> -->
         </div>
         {% assign item = site[page.category] | where: "name", "illustration 4" | first %}
@@ -52,7 +52,7 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
-                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
+                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
             <!-- </a> -->
         </div>
         {% assign item = site[page.category] | where: "name", "illustration 5" | first %}
@@ -63,7 +63,7 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
-                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
+                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
             <!-- </a> -->
         </div>
         {% assign item = site[page.category] | where: "name", "illustration 6" | first %}
@@ -74,7 +74,7 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
-                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
+                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
             <!-- </a> -->
         </div>
     </div>

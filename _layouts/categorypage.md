@@ -18,13 +18,13 @@ layout: base
             {% assign item = site[page.category] | where: "path", file | first %}
             {% if item.image != nil %}
                 <div class="col-span-1 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
-                    <a href="{{site.baseurl}}{{ item.url }}">
+                    <a href="{{ site.baseurl }}{{ item.url }}">
                         <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                             <div class="text-[40px] w-full h-full flex justify-center items-center">
                                 {{ item.name }} 
                             </div>
                         </div>
-                        <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
+                        <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
                     </a>
                 </div>
             {% else %}
@@ -41,7 +41,7 @@ layout: base
                             {{ item.name }} 
                         </div>
                     </div>
-                    <img class="w-full h-full object-scale-down" src="{{site.baseurl}}{{ item.image }}" />
+                    <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
                 </a>
             </div>
         {% endfor %}

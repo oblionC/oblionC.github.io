@@ -6,7 +6,7 @@ layout: base
         <div class="col-span-1 relative select-none">
             <div class="w-full h-full flex justify-center items-center opacity-0 fade-in-to-right">
                 <div class="2xl:w-[600px] xl:w-[500px] md:w-[420px] w-[300px] absolute 2xl:right-15 xl:right-15 md:right-5 right-10 origin-center rotating">
-                    <img src="assets/images/flower_pixelated.png" />
+                    <img src="{{site.baseurl}}/assets/images/flower_pixelated.png" />
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@ layout: base
         <div class="col-span-1 relative select-none">
             <div class="w-full h-full flex justify-center items-center opacity-0 fade-in-to-left">
                 <div class="2xl:w-[600px] xl:w-[500px] md:w-[420px] w-[300px] absolute 2xl:left-15 xl:left-15 md:left-5 left-10 origin-center reverse-rotating">
-                    <img src="assets/images/flower_pixelated.png" />
+                    <img src="{{site.baseurl}}/assets/images/flower_pixelated.png" />
                 </div>
             </div>
         </div>
@@ -34,39 +34,39 @@ layout: base
     </div>
     <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 xl:gap-10 gap-5 opacity-0 fade-up lazyload">
         <div class="md:col-span-6 col-span-10 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
-            <a href="{{site.baseurl}}typography">
+            <a href="{{site.baseurl}}/typography">
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                     <div class="text-[40px] w-full h-full flex justify-center items-center">
                         <div class="w-full h-full flex justify-center items-center transition-transform ease-in-out duration-300 hover:translate-y-0 translate-y-[100px]">
-                            <img class="w-[200px]" src="{{site.baseurl}}assets/images/website_typography.png">
+                            <img class="w-[200px]" src="{{site.baseurl}}/assets/images/website_typography.png">
                         </div>
                     </div>
                 </div>
-                <img class="w-full h-full object-cover" src="assets/images/illustration1.png" />
+                <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/illustration1.png" />
             </a>
         </div>
         <div class="md:col-span-4 col-span-10 rounded-3xl bg-white overflow-hidden relative hover:cursor-pointer">
-            <a href="{{site.baseurl}}photography">
+            <a href="{{site.baseurl}}/photography">
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                     <div class="text-[40px] w-full h-full flex justify-center items-center">
                         <div class="w-full h-full flex justify-center items-center transition-transform ease-in-out duration-300 hover:translate-y-0 translate-y-[100px]">
-                            <img class="w-[200px]" src="{{site.baseurl}}assets/images/website_photography.png">
+                            <img class="w-[200px]" src="{{site.baseurl}}/assets/images/website_photography.png">
                         </div>
                     </div>
                 </div>
-                <img class="w-full h-full object-cover" src="assets/images/photography/photography1.png" />  
+                <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/photography/photography1.png" />  
             </a>
         </div>
         <div class="md:col-span-10 row-span-2 col-span-10 rounded-3xl bg-white overflow-hidden relative hover:cursor-pointer md:rotate-0">
-            <a href="{{site.baseurl}}illustrations">
+            <a href="{{site.baseurl}}/illustrations">
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                     <div class="text-[40px] w-full h-full flex justify-center items-center">
                         <div class="w-full h-full flex justify-center items-center transition-transform ease-in-out duration-300 hover:translate-y-0 translate-y-[100px]">
-                            <img class="w-[200px]" src="{{site.baseurl}}assets/images/website_illustration.png">
+                            <img class="w-[200px]" src="{{site.baseurl}}/assets/images/website_illustration.png">
                         </div>
                     </div>
                 </div>
-                <img class="w-full h-full object-cover" src="assets/images/illustrations/illustration-banner.png" />  
+                <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/illustrations/illustration-banner.png" />  
             </a>
         </div>
     <!-- <div class="grid grid-cols-10 gap-5 mt-5">

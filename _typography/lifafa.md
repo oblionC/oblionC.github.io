@@ -13,17 +13,17 @@ layout: base
         <div class="relative xl:w-[1060px] md:w-[600px] w-[450px] xl:h-[900px] md:h-[600px] h-[400px]">
             <div class="absolute xl:w-[780px] md:w-[500px] w-[330px] -rotate-15 max-w-full xl:-left-[50px] md:-left-[50px] -left-[20px]">
                 <div class="relative ">
-                    <img src="{{site.baseurl}}assets/images/typography/lifafa-no-background.png">
+                    <img src="{{site.baseurl}}/assets/images/typography/lifafa-no-background.png">
                 </div>
             </div>
             <div class="absolute xl:w-[780px] md:w-[500px] w-[330px] rotate-29 xl:right-0 md:-right-[30px] right-[20px] xl:top-[50px] md:top-[40px] top-[20px]">
                 <div class="relative max-w-full">
-                    <img src="{{site.baseurl}}assets/images/typography/lifafa-no-background.png">
+                    <img src="{{site.baseurl}}/assets/images/typography/lifafa-no-background.png">
                 </div>
             </div>
             <div class="absolute xl:w-[270px] md:w-[170px] w-[100px] xl:bottom-[70px] bottom-[70px] xl:right-[470px] md:right-[280px] right-[240px] drop-shadow-2xl -rotate-18 lifafa-card">
                 <div class="relative">
-                    <img src="{{site.baseurl}}assets/images/typography/lifafa-no-background.png">
+                    <img src="{{site.baseurl}}/assets/images/typography/lifafa-no-background.png">
                 </div>
             </div>
         </div>
@@ -34,10 +34,10 @@ layout: base
 </div>
 <div class="grid grid-cols-2 md:grid-rows-1 grid-rows-2 gap-5 lg:mx-20 mx-5">
     <div class="md:col-span-1 col-span-2 rounded-3xl bg-[#600000] overflow-hidden relative">
-        <img src="{{site.baseurl}}assets/images/typography/type_lifafa-04.png">
+        <img src="{{site.baseurl}}/assets/images/typography/type_lifafa-04.png">
     </div>
     <div class="md:col-span-1 col-span-2 rounded-3xl bg-[#600000] overflow-hidden relative">
-        <img src="{{site.baseurl}}assets/images/typography/type_lifafa-05.png">
+        <img src="{{site.baseurl}}/assets/images/typography/type_lifafa-05.png">
     </div>
 </div>
 {% include footer.html year=2024 %}
