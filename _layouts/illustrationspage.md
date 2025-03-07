@@ -19,6 +19,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[3%] text-[2.5cqw] text-[{{ item.textcolor }}]">
+                    {{ item.year }}
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
             <!-- </a> -->
         </div>
@@ -30,6 +33,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[3%] text-[2.5cqw] text-[{{ item.textcolor }}]">
+                    {{ item.year }}
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
             <!-- </a> -->
         </div>
@@ -41,6 +47,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[3%] text-[2.5cqw] text-[{{ item.textcolor }}]">
+                    {{ item.year }}
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
             <!-- </a> -->
         </div>
@@ -52,6 +61,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[3%] text-[2.5cqw] text-[{{ item.textcolor }}]">
+                    {{ item.year }}
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
             <!-- </a> -->
         </div>
@@ -63,6 +75,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[3%] text-[2.5cqw] text-[{{ item.textcolor }}]">
+                    {{ item.year }}
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
             <!-- </a> -->
         </div>
@@ -74,6 +89,9 @@ layout: base
                         {{ item.name }} 
                     </div>
                 </div> -->
+                <div class="absolute top-[3%] right-[3%] text-[2.5cqw] text-[{{ item.textcolor }}]">
+                    {{ item.year }}
+                </div>
                 <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
             <!-- </a> -->
         </div>

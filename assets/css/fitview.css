@@ -6,3 +6,7 @@
 .fit-title-with-banner {
     height: calc(100dvh - 682px)
 }
+
+.fit-view-post {
+    height: calc(100dvh - 300px)
+}
