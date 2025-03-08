@@ -1,12 +1,12 @@
 .fit-view {
     /* 64 comes from height + y padding on navbar */
-    height: calc(100dvh - 114px) 
+    height: calc(100svh - 114px) 
 }
 
 .fit-title-with-banner {
-    height: calc(100dvh - 682px)
+    height: calc(100svh - 682px)
 }
 
 .fit-view-post {
-    height: calc(100dvh - 300px)
+    height: calc(100svh - 300px)
 }
