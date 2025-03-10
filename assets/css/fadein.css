@@ -50,11 +50,13 @@
 }
 
 .fade-left {
+    opacity: 1;
     animation-delay: 3s;
     animation: fade-left 1s;
 }
 
 .fade-right{
+    opacity: 1;
     animation-delay: 3s;
     animation: fade-right 1s;
 }

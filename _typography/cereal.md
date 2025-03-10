@@ -13,8 +13,10 @@ layout: base
     </div>
 </div>
 <div class="w-full grid grid-cols-2 my-20">
-    <div class="col-span-1">
-        <img class="rotate-18 -translate-x-[4%]" src="{{site.baseurl}}{{site.packagingurl}}/lefthand.png">
+    <div class="col-span-1 lazyload-right">
+        <div>
+            <img class="rotate-18 -translate-x-[4%]" src="{{site.baseurl}}{{site.packagingurl}}/lefthand.png">
+        </div>
     </div>
     <div class="col-span-1 xl:text-[36px] lg:text-[28px] text-[16px] xl:leading-10 lg:leading-7 leading-5 text-right md:mx-20 mx-5 flex items-center">
         This cereal packaging is a bold fusion of maximalist illustration and uncluttered design, where vibrant colours and expressive visuals create a striking yet harmonious look.
@@ -24,8 +26,10 @@ layout: base
     <div class="col-span-1 xl:text-[36px] lg:text-[28px] text-[16px] xl:leading-10 lg:leading-7 leading-5 text-left md:mx-20 mx-5 flex items-center">
         This is an interactive cereal packaging designed for both functionality and engagement.
     </div>
-    <div class="col-span-1">
-        <img class="-rotate-27 translate-x-[15%]" src="{{site.baseurl}}{{site.packagingurl}}/righthand.png">
+    <div class="col-span-1 lazyload-left"> 
+        <div>
+            <img class="-rotate-27 translate-x-[15%]" src="{{site.baseurl}}{{site.packagingurl}}/righthand.png">
+        </div>
     </div>
 </div>
 <div class="grid grid-cols-3 gap-10 my-20 lg:mx-10 mx-5">
