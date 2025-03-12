@@ -36,8 +36,11 @@ layout: base
    <div class="col-span-1"> 
         <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/packaging_w_o bg.png">
    </div>
-   <div class="col-span-1"> 
+   <div class="relative col-span-1"> 
         <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/half_cereal_packaging.png">
+        <div class="w-[4dvw] rotate-10 absolute -top-[12%] right-[15%]">
+            <img class="top-0 right-0 object-scale-down -rotate-19" src="{{site.baseurl}}{{site.packagingurl}}/arrow.png">
+        </div>
    </div>
    <div class="relative col-span-1"> 
         <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/packaging_w_o bg.png">
@@ -50,7 +53,7 @@ layout: base
 <div class="rounded-2xl overflow-hidden lg:mx-10 mx-5 mb-20">
     <img class=" object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/close_up_packaging.png">
 </div>
-<div class="grid grid-cols-3 gap-10 lg:mx-10 mx-5 md:text-[36px] text-[24px]">
+<div class="grid grid-cols-3 gap-10 lg:mx-10 mx-5 md:text-[36px] text-[24px] mb-25">
    <div class="col-span-1 flex justify-center items-center"> 
         <img class="w-33/40 object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/key line.png">
    </div>
