@@ -96,5 +96,5 @@ layout: base
             <!-- </a> -->
         </div>
     </div>
-{% include footer.html %}
 </div>
+{% include footer.html %}

@@ -18,12 +18,12 @@ layout: base
             <img class="rotate-18 -translate-x-[4%]" src="{{site.baseurl}}{{site.packagingurl}}/lefthand.png">
         </div>
     </div>
-    <div class="col-span-1 xl:text-[36px] lg:text-[28px] text-[16px] xl:leading-10 lg:leading-7 leading-5 text-right md:mx-20 mx-5 flex items-center">
+    <div class="col-span-1 xl:text-[29px] lg:text-[21px] text-[16px] xl:leading-10 lg:leading-7 leading-5 text-right md:mx-20 mx-5 flex items-center">
         This cereal packaging is a bold fusion of maximalist illustration and uncluttered design, where vibrant colours and expressive visuals create a striking yet harmonious look.
     </div>
 </div>
 <div class="w-full grid grid-cols-2 my-20">
-    <div class="col-span-1 xl:text-[36px] lg:text-[28px] text-[16px] xl:leading-10 lg:leading-7 leading-5 text-left md:mx-20 mx-5 flex items-center">
+    <div class="col-span-1 xl:text-[29px] lg:text-[21px] text-[16px] xl:leading-10 lg:leading-7 leading-5 text-left md:mx-20 mx-5 flex items-center">
         This is an interactive cereal packaging designed for both functionality and engagement.
     </div>
     <div class="col-span-1 lazyload-left"> 
@@ -32,7 +32,7 @@ layout: base
         </div>
     </div>
 </div>
-<div class="grid grid-cols-3 gap-10 my-20 lg:mx-10 mx-5">
+<div class="grid grid-cols-3 gap-[10%] my-20 lg:mx-10 mx-5">
    <div class="col-span-1"> 
         <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/packaging_w_o bg.png">
    </div>
@@ -41,9 +41,9 @@ layout: base
    </div>
    <div class="relative col-span-1"> 
         <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/packaging_w_o bg.png">
-        <div class="w-[10dvw] absolute -top-[16%] right-[10%]">
+        <div class="w-[9dvw] absolute -top-[16%] right-[10%]">
             <img class="top-0 right-0 object-scale-down -rotate-19" src="{{site.baseurl}}{{site.packagingurl}}/sachet_mockup.png">
-            <img class="absolute w-[10dw] -top-[20%] -right-[30%] object-scale-down rotate-15" src="{{site.baseurl}}{{site.packagingurl}}/sachet_mockup.png">
+            <img class="absolute w-[9dw] -top-[20%] -right-[30%] object-scale-down rotate-15" src="{{site.baseurl}}{{site.packagingurl}}/sachet_mockup.png">
         </div>
    </div>
 </div>
@@ -90,7 +90,7 @@ layout: base
 <div class="col-span-10 text-[36px] italic text-center py-5">
     color palette  
 </div>
-<div class="grid grid-cols-10 lg:mx-10 mx-5 mb-20 rounded-2xl overflow-hidden text-white text-[36px] italic">
+<div class="grid grid-cols-10 mb-20 text-white text-[36px] italic">
     <div class="relative col-span-5 min-h-[140px] bg-[#B62025]">
         <div class="absolute right-5 bottom-0">
             B62025
@@ -136,4 +136,4 @@ layout: base
         <img class="w-full object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/individual_design-13.png">
    </div>
 </div>
-{% include footer.html %}
+{% include footer.html year=2025 %}
