@@ -73,7 +73,7 @@ layout: base
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                     <div class="text-[40px] w-full h-full flex justify-center items-center">
                         <div class="w-full h-full flex justify-center items-center transition-transform ease-in-out duration-300 hover:translate-y-0 translate-y-[100px]">
-                            <img class="w-[200px]" src="{{site.baseurl}}/assets/images/website_illustration.png">
+                            print media
                         </div>
                     </div>
                 </div>
