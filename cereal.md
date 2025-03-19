@@ -33,8 +33,13 @@ layout: base
     </div>
 </div>
 <div class="grid grid-cols-3 gap-[10%] my-20 lg:mx-10 mx-5">
-   <div class="col-span-1"> 
-        <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/packaging_w_o bg.png">
+   <div class="relative col-span-1"> 
+        <div class="w-full h-full flex items-center">
+            <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/package-close.png">
+        </div>
+        <div class="w-[4dvw] rotate-60 absolute top-[40%] -right-[12%]">
+            <img class="object-scale-down -rotate-65" src="{{site.baseurl}}{{site.packagingurl}}/arrow_4.png">
+        </div>
    </div>
    <div class="relative col-span-1"> 
         <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/half_cereal_packaging.png">
