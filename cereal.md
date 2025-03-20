@@ -32,22 +32,22 @@ layout: base
         </div>
     </div>
 </div>
-<div class="grid grid-cols-3 gap-[10%] my-20 lg:mx-10 mx-5">
-   <div class="relative col-span-1"> 
+<div class="grid grid-cols-13 my-20 lg:gap-20 gap-2 lg:mx-10 mx-5">
+    <div class="relative col-span-5"> 
         <div class="w-full h-full flex items-center">
             <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/package-close.png">
         </div>
-        <div class="w-[4dvw] rotate-60 absolute top-[40%] -right-[12%]">
+        <div class="w-[5dvw] rotate-60 absolute top-[40%] -right-[11%]">
             <img class="object-scale-down -rotate-65" src="{{site.baseurl}}{{site.packagingurl}}/arrow_4.png">
         </div>
-   </div>
-   <div class="relative col-span-1"> 
+    </div>
+    <div class="relative col-span-4"> 
         <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/half_cereal_packaging.png">
         <div class="w-[4dvw] rotate-10 absolute -top-[12%] right-[15%]">
             <img class="top-0 right-0 object-scale-down -rotate-19" src="{{site.baseurl}}{{site.packagingurl}}/arrow.png">
         </div>
-   </div>
-   <div class="relative col-span-1"> 
+    </div>
+    <div class="relative col-span-4"> 
         <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/packaging_w_o bg.png">
         <div class="w-[9dvw] absolute -top-[16%] right-[10%]">
             <img class="top-0 right-0 object-scale-down -rotate-19" src="{{site.baseurl}}{{site.packagingurl}}/sachet_mockup.png">
@@ -59,7 +59,7 @@ layout: base
                 sachet
             </div>
         </div>
-   </div>
+    </div>
 </div>
 <div class="rounded-2xl overflow-hidden lg:mx-10 mx-5 mb-20">
     <img class=" object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/close_up_packaging.png">
