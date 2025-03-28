@@ -21,12 +21,12 @@ layout: base
             <img class="rotate-18 -translate-x-[4%]" src="{{site.baseurl}}{{site.packagingurl}}/lefthand.png">
         </div>
     </div>
-    <div class="col-span-1 text-[2.2rem] leading-[2.4rem] text-center md:mx-20 mx-5 flex items-center">
+    <div class="col-span-1 text-[2.2rem] leading-[2.4rem] text-center md:mx-20 mx-5 my-auto">
         Once opened, it reveals neatly packed <span class="italic">individual sachets of cereal, promoting portion control</span> and preventing overeating by providing just the right amount for each serving. 
     </div>
 </div>
 <div class="w-full grid grid-cols-2 my-20">
-    <div class="col-span-1 text-[2.2rem] leading-[2.4rem] text-center md:mx-20 mx-5 flex items-center">
+    <div class="col-span-1 text-[2.2rem] leading-[2.4rem] text-center md:mx-20 mx-5 my-auto">
         The innovative design allows the box to be <span class="italic">folded into a compact, display-like stand</span> that can be conveniently placed on the kitchen counter.
     </div>
     <div class="col-span-1 lazyload-left"> 
