@@ -12,19 +12,22 @@ layout: base
         <img class="h-full object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/packaging_w_o bg.png">
     </div>
 </div>
+<div class="max-w-[800px] md:mx-auto mx-5 my-10 text-[2.2rem] leading-[2.4rem] text-center">
+    The cereal packaging is designed to <span class="italic">captivate consumers with striking visuals</span> while offering a highly functional and practical experience. Upon purchase, the box remains securely closed, preserving freshness.
+</div>
 <div class="w-full grid grid-cols-2 my-20">
     <div class="col-span-1 lazyload-right">
         <div>
             <img class="rotate-18 -translate-x-[4%]" src="{{site.baseurl}}{{site.packagingurl}}/lefthand.png">
         </div>
     </div>
-    <div class="col-span-1 xl:text-[29px] lg:text-[21px] text-[16px] xl:leading-10 lg:leading-7 leading-5 text-right md:mx-20 mx-5 flex items-center">
-        This cereal packaging is a bold fusion of maximalist illustration and uncluttered design, where vibrant colours and expressive visuals create a striking yet harmonious look.
+    <div class="col-span-1 text-[2.2rem] leading-[2.4rem] text-center md:mx-20 mx-5 my-auto">
+        Once opened, it reveals neatly packed <span class="italic">individual sachets of cereal, promoting portion control</span> and preventing overeating by providing just the right amount for each serving. 
     </div>
 </div>
 <div class="w-full grid grid-cols-2 my-20">
-    <div class="col-span-1 xl:text-[29px] lg:text-[21px] text-[16px] xl:leading-10 lg:leading-7 leading-5 text-left md:mx-20 mx-5 flex items-center">
-        This is an interactive cereal packaging designed for both functionality and engagement.
+    <div class="col-span-1 text-[2.2rem] leading-[2.4rem] text-center md:mx-20 mx-5 my-auto">
+        The innovative design allows the box to be <span class="italic">folded into a compact, display-like stand</span> that can be conveniently placed on the kitchen counter.
     </div>
     <div class="col-span-1 lazyload-left"> 
         <div>
@@ -32,8 +35,11 @@ layout: base
         </div>
     </div>
 </div>
-<div class="grid grid-cols-19 my-20 gap-[2%] lg:mx-10 mx-5">
-    <div class="relative col-span-7"> 
+<div class="max-w-[800px] md:mx-auto mx-5 my-50 text-[2.2rem] leading-[2.4rem] text-center">
+    This makes it easy to grab a sachet on busy mornings, ensuring a quick, hassle free breakfast while maintaining an organised and visually appealing space.
+</div>
+<div class="grid grid-cols-20 my-20 gap-x-[2%] gap-y-20 lg:mx-20 mx-5">
+    <div class="relative col-span-9"> 
         <div class="w-full h-full flex items-center">
             <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/package-close.png">
         </div>
@@ -41,13 +47,19 @@ layout: base
             <img class="object-scale-down -rotate-65" src="{{site.baseurl}}{{site.packagingurl}}/arrow_4.png">
         </div>
     </div>
-    <div class="relative col-span-6"> 
+    <div class="col-span-11 text-[2.2rem] leading-[2.4rem] text-center my-auto">
+        Open the box
+    </div> 
+    <div class="col-span-10 text-[2.2rem] leading-[2.4rem] text-center my-auto">
+        Fold the box in<br>this manner
+    </div> 
+    <div class="relative col-span-10 rotate-18 scale-80"> 
         <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/half_cereal_packaging.png">
         <div class="w-[4dvw] rotate-10 absolute -top-[12%] right-[15%]">
             <img class="top-0 right-0 object-scale-down -rotate-19" src="{{site.baseurl}}{{site.packagingurl}}/arrow.png">
         </div>
     </div>
-    <div class="relative col-span-6"> 
+    <div class="relative col-span-9"> 
         <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/packaging_w_o bg.png">
         <div class="w-[9dvw] absolute -top-[16%] right-[10%]">
             <img class="top-0 right-0 object-scale-down -rotate-19" src="{{site.baseurl}}{{site.packagingurl}}/sachet_mockup.png">
@@ -60,49 +72,15 @@ layout: base
             </div>
         </div>
     </div>
+    <div class="col-span-11 text-[2.2rem] leading-[2.4rem] text-center my-auto">
+        In a rush? Grab<br>a sachet and go!
+    </div> 
 </div>
-<div class="rounded-2xl overflow-hidden lg:mx-10 mx-5 mb-20">
-    <img class=" object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/close_up_packaging.png">
+<div class="my-40">
+    <img class="w-full" src="{{site.baseurl}}{{site.packagingurl}}/cereal_edited.jpg">
 </div>
-<div class="grid grid-cols-3 gap-10 lg:mx-10 mx-5 md:text-[36px] text-[24px] mb-25">
-   <div class="col-span-1 flex justify-center items-center"> 
-        <img class="w-33/40 object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/key line.png">
-   </div>
-   <div class="col-span-1 flex justify-center items-center"> 
-        <img class="w-full object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/packaging_colour-01.png">
-   </div>
-   <div class="col-span-1 flex justify-center items-center"> 
-        <img class="w-full object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/packaging_colour-02.png">
-   </div>
-   <div class="col-span-1 flex justify-center items-center text-left pl-[22%]"> 
-        keyline
-   </div>
-   <div class="col-span-1 flex justify-center items-center text-left pl-[22%]"> 
-        outside
-   </div>
-   <div class="col-span-1 flex justify-center items-center pr-[24%]"> 
-        inside
-   </div>
-</div>
-<div class="grid grid-cols-10 lg:mx-10 mx-5 my-10 gap-10">
-   <div class="col-span-5 flex justify-center items-center"> 
-        <img class="w-9/10" src="{{site.baseurl}}{{site.packagingurl}}/individual_design-11.png">
-   </div>
-   <div class="col-span-5 flex justify-center items-center"> 
-        <img class="w-3/4" src="{{site.baseurl}}{{site.packagingurl}}/individual design-06.png">
-   </div>
-   <div class="col-span-4 flex justify-center items-center"> 
-        <img class="rotate-90 w-4/5 object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/individual design-07.png">
-   </div>
-   <div class="col-span-6 flex justify-center items-center"> 
-        <img class="" src="{{site.baseurl}}{{site.packagingurl}}/individual design-10.png">
-   </div>
-   <div class="col-span-10 flex justify-center items-center"> 
-        <img class="w-[40vw]" src="{{site.baseurl}}{{site.packagingurl}}/individual_designn.png">
-   </div>
-</div>
-<div class="col-span-10 text-[36px] italic text-center py-5">
-    color palette  
+<div class="max-w-[800px] md:mx-auto mx-5 my-40 text-[2.2rem] leading-[2.4rem] text-center">
+    This cereal packaging is a bold fusion of maximalist illustration and uncluttered design, where vibrant colours and expressive visuals create a striking yet harmonious look.
 </div>
 <div class="grid grid-cols-10 mb-20 text-white text-[36px] italic">
     <div class="relative col-span-5 min-h-[140px] bg-[#B62025]">
@@ -136,7 +114,7 @@ layout: base
         </div>
     </div>
 </div>
-<div class="col-span-10 text-[36px] italic text-center pb-5">
+<div class="col-span-10 text-[36px] italic text-center pb-5 mt-30">
     illustrations made  
 </div>
 <div class="grid grid-cols-3 gap-10 lg:mx-10 mx-5">
