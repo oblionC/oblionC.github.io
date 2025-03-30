@@ -43,6 +43,8 @@ collections:
     output: true
   illustrations:
     output: true
+  print_media:
+    output: true
 
 # postcss:
 #   cache: false

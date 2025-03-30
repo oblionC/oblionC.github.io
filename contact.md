@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<div class="md:text-[36px] text-[22px] md:leading-10 leading-5 font-[Instrument_Serif] lg:mx-20 mx-5 mb-30 mt-20 lg:w-3/5 w-full">
+<div class="md:text-[36px] text-[22px] md:leading-10 leading-5 font-[Instrument_Serif] lg:mx-20 mx-5 mb-30 mt-20 lg:w-3/5 w-full italic">
     You scrolled, you clicked, and now you’re here. Coincidence? I think not. Let’s make something happen, one email or call won’t hurt!
 </div>
 <div class="w-full xl:h-[650px] md:h-[500px] h-[300px] relative fade-up">
