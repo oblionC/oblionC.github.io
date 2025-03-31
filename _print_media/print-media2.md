@@ -8,8 +8,27 @@ layout: base
     <div class="w-full lg:text-[96px] md:text-[96px] text-[50px] flex justify-center items-center min-h-[145px] italic">
         {{ page.name }}
     </div>
-    <div class="md:min-h-[400px] min-h-[300px] md:mx-0 mx-5 flex justify-center items-center fit-view-post">
-        <img class="h-full object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/packaging_w_o bg.png">
+    <div class="md:min-h-[700px] min-h-[500px] md:mx-0 mx-5 flex justify-center items-center fit-view-post">
+        <div class="flex flex-col h-full justify-evenly text-center text-[2.2rem] leading-[2.4rem] max-w-[250px] mr-20">
+            <span>The title, “the perks of being a wallflower,” is too small and easily overlooked.</span>
+            <span>It’s placed at the top in a non-dominant position, making it less noticeable.</span>
+            <span>The author's name is lowercase, stretched, subtle, and lacks visual emphasis.</span>
+        </div> 
+        <div class="h-full relative">
+            <img class="h-full object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/perksofbeingawallflower.png">
+            <div class="absolute top-10 -left-8 md:h-[66cqh] md:min-h-[650px] min-h-[580px] w-[80px] border-solid border-l-4 border-t-4 border-white">
+                <div class="absolute bottom-0 left-0 w-[40px] border-solid border-l-4 border-t-4 border-white"></div>
+                <div class="absolute bottom-30 -left-10 w-[40px] border-solid border-l-4 border-t-4 border-white"></div>
+                <div class="absolute top-30 -left-10 w-[40px] border-solid border-l-4 border-t-4 border-white"></div>
+                <div class="absolute top-85 -left-10 w-[40px] border-solid border-t-4 border-white"></div>
+            </div>
+            <div class="absolute bottom-85 -right-15 w-[200px] border-solid border-l-4 border-t-4 border-white"></div>
+            <div class="absolute top-30 -right-15 w-[100px] border-solid border-l-4 border-t-4 border-white"></div>
+        </div>
+        <div class="flex flex-col h-full justify-start pt-20 gap-20 text-center text-[2.2rem] leading-[2.4rem] max-w-[250px] ml-20">
+            <span>The placement in the corner feels awkward and imbalanced.</span>
+            <span>The cover is overwhelmingly plain, with a large block of yellow that lacks visual interest.</span>
+        </div> 
     </div>
 </div>
 <div class="max-w-[800px] md:mx-auto mx-5 my-40 text-[2.2rem] leading-[2.4rem] text-center">
@@ -37,4 +56,4 @@ layout: base
         I chose a subtle and muted color palette, inspired by the soft hues of the wallflower, to visually convey Charlie’s quiet introspection and emotional depth.
     </div> 
 </div>
-{% include footer.html year=2025 %}
+{% include footer.html year=2023 %}
