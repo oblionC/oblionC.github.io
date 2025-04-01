@@ -4,7 +4,7 @@ layout: base
 <div class="md:text-[36px] text-[22px] md:leading-10 leading-5 font-[Instrument_Serif] lg:mx-20 mx-5 mb-30 mt-20 lg:w-3/5 w-full italic">
     You scrolled, you clicked, and now you’re here. Coincidence? I think not. Let’s make something happen, one email or call won’t hurt!
 </div>
-<div class="w-full xl:h-[650px] md:h-[500px] h-[300px] relative fade-up">
+<div class="w-full xl:h-[650px] md:h-[500px] h-[300px] relative opacity-0 fade-up">
     <div class="bg-white border-solid border-3 border-black absolute xl:w-[1200px] md:w-[750px] w-[480px] left-0 right-0 mx-auto rotating-card">
         <img class="w-full" src="{{site.baseurl}}assets/images/contacts-border.png">
         <div class="absolute text-black xl:text-[150px] md:text-[90px] text-[40px] md:left-[50px] left-[20px] xl:bottom-[50px] md:bottom-[40px] bottom-[20px] xl:leading-30 md:leading-20 leading-10">
@@ -79,6 +79,14 @@ layout: base
             </div>
         </div>
         <div class="absolute text-black xl:text-[36px] md:text-[28px] text-[20px] md:right-[60px] right-[20px] xl:bottom-[50px] md:bottom-[40px] bottom-[20px]">
+            <a class="group" href="https://www.behance.net/saniyamurdesh">
+                <div class="flex flex-row-reverse text-right">
+                    behance
+                    <img class="w-[30px] object-scale-down" src="{{site.baseurl}}assets/images/hyperlink_icon.png">
+                </div>
+                <div class="h-0 group-hover:w-full w-0 transition-all border-b-1 border-solid border-black">
+                </div>
+            </a>
             <a class="group" href="https://www.instagram.com/saniyaa_murdeshwar/">
                 <div class="flex flex-row">
                     <img class="w-[30px] object-scale-down" src="{{site.baseurl}}assets/images/hyperlink_icon.png">

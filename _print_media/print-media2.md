@@ -8,6 +8,9 @@ layout: base
     <div class="w-full lg:text-[96px] md:text-[96px] text-[50px] flex justify-center items-center min-h-[145px] italic">
         {{ page.name }}
     </div>
+    <div class="w-full lg:text-[64px] md:text-[64px] text-[40px] flex justify-center items-center min-h-[145px] italic">
+        problem identification
+    </div>
     <div class="md:min-h-[700px] min-h-[500px] md:mx-0 mx-5 flex justify-center items-center fit-view-post">
         <div class="flex flex-col h-full justify-evenly text-center text-[2.2rem] leading-[2.4rem] max-w-[250px] mr-20">
             <span>The title, “the perks of being a wallflower,” is too small and easily overlooked.</span>
@@ -48,11 +51,11 @@ layout: base
 <div class="my-40">
     <img class="w-full" src="{{site.baseurl}}{{site.packagingurl}}/yellow_bookcover_purple bg.png">
 </div>
-<div class="grid grid-cols-20 my-20 gap-x-[2%] gap-y-20 lg:mx-20 mx-5">
-    <div class="relative col-span-10"> 
+<div class="grid grid-cols-30 my-20 gap-x-[2%] gap-y-20 lg:mx-20 mx-5">
+    <div class="col-span-16"> 
         <img class="object-scale-down" src="{{site.baseurl}}{{site.packagingurl}}/bookcover_mockup.png">
     </div>
-    <div class="col-span-10 text-[2.2rem] leading-[2.4rem] text-right my-auto">
+    <div class="col-span-14 text-[2.2rem] leading-[2.4rem] text-right my-auto">
         I chose a subtle and muted color palette, inspired by the soft hues of the wallflower, to visually convey Charlie’s quiet introspection and emotional depth.
     </div> 
 </div>
