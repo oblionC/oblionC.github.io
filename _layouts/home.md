@@ -91,3 +91,4 @@ layout: base
     </div> -->
     </div>
 </div>
+{% include footer.html %}
