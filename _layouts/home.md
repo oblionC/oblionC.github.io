@@ -31,7 +31,7 @@ layout: base
 <div class="font-[Instrument_Serif] min-h-[720px] max-w-full text-white justify-center flex flex-col md:mx-20 mx-5 overflow-hidden" id="works">
     <div class="md:text-[64px] text-[48px] italic opacity-0 fade-up">
         works
-    </div> <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 xl:gap-10 gap-5 lazyload mb-20">
+    </div> <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 xl:gap-10 gap-5 lazyload">
         <div class="md:col-span-10 row-span-2 col-span-10 rounded-3xl overflow-hidden relative hover:cursor-pointer md:rotate-0">
             <a href="{{site.baseurl}}/print_media">
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">

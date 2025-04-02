@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<div class="max-w-screen md:px-20 px-5 text-white font-[Instrument_Serif] my-20">
+<div class="max-w-screen md:px-20 px-5 text-white font-[Instrument_Serif] mt-20">
     <div class="w-2/3 mx-auto mb-20">
         <div class="lg:text-[96px] md:text-[96px] text-[50px] flex justify-center items-center fit-title-with-banner min-h-[145px] italic">
             {{ page.category }}
@@ -40,5 +40,5 @@ layout: base
         {% assign item = site[page.category] | where: "name", "photography 8" | first %}
         {% include photo.html item=item %}
     </div>
-{% include footer.html %}
 </div>
+{% include footer.html %}

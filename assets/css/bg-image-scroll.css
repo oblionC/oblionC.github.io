@@ -23,6 +23,13 @@
     animation-timing-function: linear;
 }
 
+.bg-scroll-left-slow {
+    animation-name: bg-scroll-left;
+    animation-iteration-count: infinite;
+    animation-duration: 80s;
+    animation-timing-function: linear;
+}
+
 .bg-scroll-right {
     animation-name: bg-scroll-right;
     animation-iteration-count: infinite;

@@ -11,20 +11,6 @@ layout: base
         </div>
     </div>
     <div class="grid grid-cols-2 gap-5 lazyload">
-        {% assign item = site[page.category] | where: "name", "illustration 1" | first %}
-        <div class="col-span-2 rounded-3xl bg-[#600000] overflow-hidden relative">
-            <!-- <a href="{{site.baseurl}}{{ item.url }}">
-                <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
-                    <div class="text-[40px] w-full h-full flex justify-center items-center">
-                        {{ item.name }} 
-                    </div>
-                </div> -->
-                <div class="absolute top-[3%] right-[3%] text-[2.5cqw] text-[{{ item.textcolor }}]">
-                    {{ item.year }}
-                </div>
-                <img class="w-full h-full object-scale-down" src="{{site.baseurl}}/{{ item.image }}" />
-            <!-- </a> -->
-        </div>
         {% assign item = site[page.category] | where: "name", "illustration 2" | first %}
         <div class="col-span-2 rounded-3xl bg-[#600000] overflow-hidden relative">
             <!-- <a href="{{site.baseurl}}{{ item.url }}">
