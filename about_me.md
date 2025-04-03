@@ -15,3 +15,4 @@ layout: base
     Mumbai-based design enthusiast who geeks out over fonts, frames, and illustrations. Rooted in a desire to create meaningful and lasting impact, I strive to craft work that goes beyond aesthetics, leaving a lasting impression which resonates.
     </div>
 </div>
+{% include footer.html %}
