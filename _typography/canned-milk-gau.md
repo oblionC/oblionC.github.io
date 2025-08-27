@@ -78,4 +78,4 @@ layout: base
     </div> 
     <img src="{{site.baseurl}}/assets/images/typography/canned-milk/holding-milk.png">
 </div>
-{% include footer.html year=2024%}
+{% include footer.html year=2025%}
