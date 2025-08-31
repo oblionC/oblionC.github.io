@@ -66,10 +66,30 @@ layout: base
 </div>
 <div class="w-full h-fit lg:px-20 px-5 space-y-15 font-[Instrument_Serif] text-white overflow-hidden mb-20">
     <div class="grid grid-cols-2 md:grid-rows-1 gap-12.5">
-        <img src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-og.png">
-        <img src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-cocoa.png">
-        <img src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-mint.png">
-        <img src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-vanilla.png">
+        <div class="image-switch relative">
+            <img class="relative" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-og.png">
+            <img class="absolute top-0 left-0" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-cocoa.png">
+            <img class="absolute top-0 left-0" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-mint.png">
+            <img class="absolute top-0 left-0" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-vanilla.png">
+        </div>
+        <div class="image-switch relative">
+            <img class="absolute top-0 left-0" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-cocoa.png">
+            <img class="absolute top-0 left-0" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-mint.png">
+            <img class="absolute top-0 left-0" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-vanilla.png">
+            <img class="relative" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-og.png">
+        </div>
+        <div class="image-switch relative">
+            <img class="absolute top-0 left-0" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-mint.png">
+            <img class="absolute top-0 left-0" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-vanilla.png">
+            <img class="relative" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-og.png">
+            <img class="absolute top-0 left-0" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-cocoa.png">
+        </div>
+        <div class="image-switch relative">
+            <img class="absolute top-0 left-0" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-vanilla.png">
+            <img class="relative" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-og.png">
+            <img class="absolute top-0 left-0" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-cocoa.png">
+            <img class="absolute top-0 left-0" src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-mint.png">
+        </div>
     </div>
     <img src="{{site.baseurl}}/assets/images/typography/canned-milk/milk-box.png">
     <div class="overflow-hidden relative">
