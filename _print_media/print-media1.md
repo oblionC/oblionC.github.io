@@ -62,7 +62,10 @@ layout: base
     </div> 
 </div> 
 <div class="md:text-[36px] text-[22px] h-[200px] flex justify-center items-center md:leading-10 leading-6 text-center my-20">
-    Ditch the <i>tetra pack</i>
+    <p>
+        Ditch the <i>tetra pack</i><br>
+        Who knew drinking milk could look this good?
+    </p>
 </div>
 <div class="w-full h-fit lg:px-20 px-5 space-y-15 font-[Instrument_Serif] text-white overflow-hidden mb-20">
     <div class="grid md:grid-cols-2 grid-cols-1 gap-12.5">
@@ -89,9 +92,6 @@ layout: base
     <div class="md:text-[36px] text-[22px] max-w-[1000px] mx-auto flex justify-center items-center md:leading-10 leading-6 text-center my-38">
         Gau is a flavoured milk brand packaged in sleek aluminium cans, breaking away from traditional tetra packs and elevates milk into a premium lifestyle beverage
     </div>
-    <div class="grid sm:grid-cols-2 grid-cols-1 gap-17">
-        <img class="" src="{{site.baseurl}}/assets/images/packaging/canned-milk/cans-cloth.png">
-        <img class="" src="{{site.baseurl}}/assets/images/packaging/canned-milk/cans-cloth.png">
-    </div> 
+    <img class="" src="{{site.baseurl}}/assets/images/packaging/canned-milk/cans-cloth.png">
 </div>
 {% include footer.html year=2025%}
