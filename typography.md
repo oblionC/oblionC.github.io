@@ -9,5 +9,4 @@ order:
     - patraakriti.md
     # - jigyasa.md
     - expressive-typography.md
-    - canned-milk-gau.md
 ---
