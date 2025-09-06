@@ -7,7 +7,7 @@ order:
     - experimental-aag.md
     - lifafa.md
     - patraakriti.md
-    - jigyasa.md
+    # - jigyasa.md
     - expressive-typography.md
     - canned-milk-gau.md
 ---
