@@ -90,7 +90,7 @@ layout: base
         <img class="" src="{{site.baseurl}}/assets/images/packaging/canned-milk/can-4.png">
     </div> 
     <div class="md:text-[36px] text-[22px] max-w-[1000px] mx-auto flex justify-center items-center md:leading-10 leading-6 text-center my-38">
-        Gau is a flavoured milk brand packaged in sleek aluminium cans, breaking away from traditional tetra packs and elevates milk into a premium lifestyle beverage
+            What if milk looked as cool as soda, as premium as cold brew, and as fun as energy drinks? By changing the packaging, we change the perception.
     </div>
     <img class="" src="{{site.baseurl}}/assets/images/packaging/canned-milk/cans-cloth.png">
 </div>
