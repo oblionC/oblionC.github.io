@@ -4,7 +4,6 @@ image: assets/images/packaging/canned-milk/canned-milk-banner.png
 description: This experimental Devanagari display typeface explores the dynamic interplay of gradients and colours, pushing the boundaries of traditional letterforms.
 layout: base
 ---
-<!--  -->
 <div class="lg:text-[96px] md:text-[96px] text-[50px] flex justify-center items-center min-h-[145px] italic mb-20">
     {{ page.name }}
 </div>
