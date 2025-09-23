@@ -29,7 +29,7 @@ layout: base
         </div>
     </div>
 </div>
-<div class="text-[36px] h-[200px] bg-[#475E3D] flex justify-center items-center leading-10 text-center">
+<div class="text-[36px] h-[200px] flex justify-center items-center leading-10 text-center">
    After lettering "lifafa" in watercolour on an envelope and loving the<br> result, I knew it deserved a digital transformation. 
 </div>
 <div class="grid grid-cols-2 md:grid-rows-1 grid-rows-2 gap-5 lg:mx-20 mx-5">
