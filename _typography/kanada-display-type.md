@@ -5,6 +5,9 @@ description: During a trip to Karnataka, I observed a lack of elegant Kannada sc
 layout: base
 ---
 <div class="max-w-screen overflow-hidden">
+    <div class="lg:text-[96px] md:text-[96px] text-[50px] flex justify-center items-center fit-title-with-banner min-h-[145px] italic">
+        {{ page.name }}
+    </div>
     <div class="flex flex-row bg-scroll-right w-[1900px]">
         <img class="object-scale-down w-full" src="{{site.baseurl}}/assets/images/typography/website_line-48.png">
         <img class="object-contain w-full" src="{{site.baseurl}}/assets/images/typography/website_line-48.png">
@@ -40,9 +43,6 @@ layout: base
     <div class="flex flex-row bg-scroll-right w-[1900px] [@media(max-height:750px)]:hidden">
         <img src="{{site.baseurl}}/assets/images/typography/website_line-46.png">
         <img src="{{site.baseurl}}/assets/images/typography/website_line-46.png">
-    </div>
-    <div class="lg:text-[96px] md:text-[96px] text-[50px] flex justify-center items-center fit-title-with-banner min-h-[145px] italic">
-        {{ page.name }}
     </div>
 </div>
 <div class="w-full h-fit lg:px-20 px-5 font-[Instrument_Serif] text-white overflow-hidden mb-20">
