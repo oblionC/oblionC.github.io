@@ -41,7 +41,8 @@ layout: base
                         </div>
                     </div>
                 </div>
-                <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/packaging/coverpage_printmedia.png" />  
+                <img class="sm:block hidden w-full h-full object-cover" src="{{site.baseurl}}/assets/images/packaging/banner_cereal-17.png" />  
+                <img class="sm:hidden block w-full h-full object-cover" src="{{site.baseurl}}/assets/images/packaging/banner_cereal-18.png" />  
             </a>
         </div>
         <div class="md:col-span-6 col-span-10 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">

@@ -37,7 +37,7 @@ layout: base
         <img class="object-contain w-[2000px] " src="{{site.baseurl}}/assets/images/typography/website_aag strips-65.png">
     </div>
 </div>
-<div class="md:text-[36px] text-[22px] h-[200px] flex justify-center items-center md:leading-10 leading-6 text-center my-20">
+<div class="md:text-[36px] sm:text-[22px] text-[1rem] h-[200px] flex justify-center items-center md:leading-10 sm:leading-6 leading-[1.25rem] text-center my-20">
     This Devanagari type explores the dynamic<br>interplay of gradients and colours, pushing the<br>boundaries of traditional letterforms.
 </div>
 <div class="w-full h-fit lg:px-20 px-5 font-[Instrument_Serif] text-white overflow-hidden mb-20">
