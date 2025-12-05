@@ -20,7 +20,7 @@ layout: base
                 <div class="col-span-1 rounded-3xl overflow-hidden relative hover:cursor-pointer">
                     <a href="{{ site.baseurl }}{{ item.url }}">
                         <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
-                            <div class="text-[40px] w-full h-full flex justify-center items-center">
+                            <div class="text-[40px] w-full h-full flex justify-center items-center text-center">
                                 {{ item.name }} 
                             </div>
                         </div>
@@ -37,7 +37,7 @@ layout: base
             <div class="col-span-1 rounded-3xl overflow-hidden relative hover:cursor-pointer">
                 <a href="{{site.baseurl}}{{ item.url }}">
                     <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
-                        <div class="text-[40px] w-full h-full flex justify-center items-center">
+                        <div class="text-[40px] w-full h-full flex justify-center items-center text-center">
                             {{ item.name }} 
                         </div>
                     </div>

@@ -32,7 +32,7 @@ layout: base
     <div class="md:text-[64px] text-[48px] italic opacity-0 fade-up">
         works
     </div> <div class="grid grid-cols-10 md:grid-rows-1 grid-rows-2 xl:gap-10 gap-5 lazyload">
-        <div class="md:col-span-10 row-span-2 col-span-10 rounded-3xl overflow-hidden relative hover:cursor-pointer md:rotate-0">
+        <div class="md:col-span-10 sm:h-auto h-100 row-span-2 col-span-10 rounded-3xl overflow-hidden relative hover:cursor-pointer md:rotate-0">
             <a href="{{site.baseurl}}/print_media">
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                     <div class="text-[40px] w-full h-full flex justify-center items-center">
@@ -45,7 +45,7 @@ layout: base
                 <img class="sm:hidden block w-full h-full object-cover" src="{{site.baseurl}}/assets/images/packaging/banner_cereal-18.png" />  
             </a>
         </div>
-        <div class="md:col-span-6 col-span-10 rounded-3xl bg-[#600000] overflow-hidden relative hover:cursor-pointer">
+        <div class="md:col-span-6 col-span-10 rounded-3xl sm:h-auto h-100 bg-[#600000] overflow-hidden relative hover:cursor-pointer">
             <a href="{{site.baseurl}}/typography">
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                     <div class="text-[40px] w-full h-full flex justify-center items-center">
@@ -58,7 +58,7 @@ layout: base
                 <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/illustration1.png" />
             </a>
         </div>
-        <div class="md:col-span-4 col-span-10 rounded-3xl bg-white overflow-hidden relative hover:cursor-pointer">
+        <div class="md:col-span-4 col-span-10 rounded-3xl sm:h-auto h-100 bg-white overflow-hidden relative hover:cursor-pointer">
             <a href="{{site.baseurl}}/photography">
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                     <div class="text-[40px] w-full h-full flex justify-center items-center">
@@ -71,7 +71,7 @@ layout: base
                 <img class="w-full h-full object-cover" src="{{site.baseurl}}/assets/images/photography/photography1.png" />  
             </a>
         </div>
-        <div class="md:col-span-10 row-span-2 col-span-10 rounded-3xl bg-white overflow-hidden relative hover:cursor-pointer md:rotate-0">
+        <div class="md:col-span-10 row-span-2 col-span-10 rounded-3xl sm:h-auto h-100 bg-white overflow-hidden relative hover:cursor-pointer md:rotate-0">
             <a href="{{site.baseurl}}/illustrations">
                 <div class="bg-black transition-opacity ease-in-out duration-300 opacity-0 hover:opacity-85 absolute w-full h-full">
                     <div class="text-[40px] w-full h-full flex justify-center items-center">
