@@ -1,6 +1,5 @@
 .fit-view {
-    /* 64 comes from height + y padding on navbar */
-    height: calc(100dvh - 114px) 
+    height: calc(var(--vh) - 114px) 
 }
 
 .fit-title-with-banner {
