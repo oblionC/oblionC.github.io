@@ -1,5 +1,5 @@
 .fit-view {
-    height: calc(var(--vh) - 114px) 
+    height: calc((var(--vh, 1vh) * 100) - 114px) 
 }
 
 .fit-title-with-banner {
