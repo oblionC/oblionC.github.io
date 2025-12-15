@@ -12,7 +12,7 @@ layout: base
     </div>
     <div class="grid grid-cols-2 gap-5 lazyload">
         {% assign item = site[page.category] | where: "name", "social anxiety" | first %}
-        <div class="col-span-2 rounded-3xl bg-[#600000] overflow-hidden relative">
+        <div class="col-span-2 bg-[#600000] overflow-hidden relative">
             <a href="{{site.baseurl}}{{ item.url }}">
                 <div class="absolute top-[3%] right-[3%] text-[2.5cqw] text-black">
                     2023

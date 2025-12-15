@@ -5,4 +5,5 @@ description: The way the light spills across the sofa, so effortlessly and kind,
 layout: post
 year: 2024
 long: true
+notRounded: true
 ---
